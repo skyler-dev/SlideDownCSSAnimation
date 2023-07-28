@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* Unitless values: use this number multiplied
+    by the element's font size */
+    line-height: 1.2;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.list{
+    background-color: #778da9;
+    margin-top: -10px;
+    /* 아래 속성은 상속되므로 모든 자식 li 태그에 효과 같은 적용 */
+    list-style: none;
+}
+.list-item{
+    line-height: 7rem;
+    height: 7rem;
+    width: 300px;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-top: 10px;
+    background-color: lightgray;
+    cursor: pointer;
+    overflow: hidden;
+}
+.add-btn{
+    line-height: 7rem;
+    height: 7rem;
+    width: 300px;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid black;
+
+}
